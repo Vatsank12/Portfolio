@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vatsank Dabral - Computer Science Student & Developer</title>
+    <meta name="description" content="Portfolio of Vatsank Dabral - Computer Science student specializing in cybersecurity, web development, and software engineering.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.css" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+        <i data-feather="sun" class="sun-icon"></i>
+        <i data-feather="moon" class="moon-icon"></i>
+    </button>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="avatar">
+                    <img src="assets/icons/avatar.svg" alt="Vatsank Dabral" class="avatar-img">
+                    <div class="avatar-status"></div>
+                </div>
+                <div class="user-info">
+                    <h1 class="user-name">Vatsank Dabral</h1>
+                    <p class="user-title">Computer Science Student</p>
+                    <p class="user-subtitle">Cybersecurity & Web Development</p>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link active" data-section="about">
+                            <i data-feather="user"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link" data-section="resume">
+                            <i data-feather="file-text"></i>
+                            <span>Resume</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link" data-section="projects">
+                            <i data-feather="folder"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-section="contact">
+                            <i data-feather="mail"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-feather="mail"></i>
+                        <span>vatsankdabral09@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-feather="map-pin"></i>
+                        <span>Dehradun, Uttarakhand</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-feather="calendar"></i>
+                        <span>May 17, 2004</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vatsank-dabral-8698a4248" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Vatsank12" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                        <i data-feather="github"></i>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section id="about" class="section active">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-content">
+                    <!-- Hero Section -->
+                    <div class="hero-section" data-aos="fade-up">
+                        <h1 class="hero-title">Hi, I'm <span class="highlight">Vatsank Dabral</span></h1>
+                        <h2 class="hero-subtitle">Computer Science Student & Cybersecurity Enthusiast</h2>
+                        <p class="hero-description">
+                            Results-driven Computer Science student with a strong foundation in programming, 
+                            data structures, and cybersecurity. Passionate about software development and 
+                            problem-solving, seeking an opportunity to apply technical expertise in a dynamic organization.
+                        </p>
+                        
+                        <div class="hero-buttons">
+                            <a href="https://github.com/Vatsank12" target="_blank" rel="noopener noreferrer" class="hero-btn primary">
+                                <i data-feather="github"></i>
+                                View GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/vatsank-dabral-8698a4248" target="_blank" rel="noopener noreferrer" class="hero-btn secondary">
+                                <i data-feather="linkedin"></i>
+                                Connect on LinkedIn
+                            </a>
+                            <a href="mailto:vatsankdabral09@gmail.com" class="hero-btn outline">
+                                <i data-feather="mail"></i>
+                                Get In Touch
+                            </a>
+                        </div>
+
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">7+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">6</span>
+                                <span class="stat-label">Certifications</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">Top 10%</span>
+                                <span class="stat-label">Hackathon Rank</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <img src="assets/icons/programming.svg" alt="Programming">
+                            </div>
+                            <h3>Programming Languages</h3>
+                            <p>C, C++, Java, Python</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <img src="assets/icons/web-development.svg" alt="Web Development">
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>HTML, CSS, JavaScript, React</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <img src="assets/icons/security.svg" alt="Cybersecurity">
+                            </div>
+                            <h3>Cybersecurity & Networking</h3>
+                            <p>Network Security, Firewalls, Ethical Hacking</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <img src="assets/icons/tools.svg" alt="Tools">
+                            </div>
+                            <h3>Tools & Technologies</h3>
+                            <p>OpenCV, Git, Linux, Data Structures & Algorithms</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon">
+                                <img src="assets/icons/design.svg" alt="Design">
+                            </div>
+                            <h3>Design & Animation</h3>
+                            <p>UI/UX, Graphic Design</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Resume</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="resume-content">
+                    <!-- Education -->
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <i data-feather="book-open"></i>
+                            Education
+                        </h3>
+                        <div class="timeline">
+                            <div class="timeline-item" data-aos="fade-right">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>Bachelor of Technology (B.Tech) in Computer Science Engineering</h4>
+                                    <p class="timeline-subtitle">Graphic Era Hill University, Dehradun</p>
+                                    <p class="timeline-date">Expected Graduation: May 2026</p>
+                                    <p class="timeline-description">
+                                        Relevant Coursework: Data Structures, Algorithms, Networking, Cybersecurity, Web Development
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>12th Grade, CBSE</h4>
+                                    <p class="timeline-subtitle">New Tehri International School</p>
+                                    <p class="timeline-date">2022</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>10th Grade, ICSE</h4>
+                                    <p class="timeline-subtitle">All Saints Convent School, New Tehri</p>
+                                    <p class="timeline-date">2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <i data-feather="briefcase"></i>
+                            Work Experience
+                        </h3>
+                        <div class="timeline">
+                            <div class="timeline-item" data-aos="fade-right">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>IT Intern</h4>
+                                    <p class="timeline-subtitle">Uttarakhand Power Corporation Limited (UPCL), Dehradun</p>
+                                    <p class="timeline-description">
+                                        Gained comprehensive exposure to enterprise IT infrastructure including web development, application             
+                                        development, and database management systems. 
+                                               Trained in cybersecurity protocols and critical infrastructure protection methods for power sector operations 
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <i data-feather="award"></i>
+                            Certifications
+                        </h3>
+                        <div class="certifications-grid">
+                            <div class="certification-card" data-aos="zoom-in" data-aos-delay="100">
+                                <h4>Google Cloud Computing Foundation</h4>
+                                <p>IIT Kharagpur, NPTEL (2023)</p>
+                            </div>
+                            <div class="certification-card" data-aos="zoom-in" data-aos-delay="200">
+                                <h4>Introduction to Cybersecurity</h4>
+                                <p>CISCO, Networking Academy (2023)</p>
+                            </div>
+                            <div class="certification-card" data-aos="zoom-in" data-aos-delay="300">
+                                <h4>Android Mobile Application Development</h4>
+                                <p>BAOU Ahmedabad, NPTEL (2024)</p>
+                            </div>
+                            <div class="certification-card" data-aos="zoom-in" data-aos-delay="400">
+                                <h4>Mean Stack Development</h4>
+                                <p>Helium, ISO (2025)</p>
+                            </div>
+                            <div class="certification-card" data-aos="zoom-in" data-aos-delay="500">
+                                <h4>Advanced Computer Networks</h4>
+                                <p>IIT Madras, NPTEL (2025)</p>
+                            </div>
+                            <div class="certification-card" data-aos="zoom-in" data-aos-delay="600">
+                                <h4>Adobe InDesign</h4>
+                                <p>Helium, ISO (2025)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-content">
+                    <div class="projects-grid">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="project-header">
+                                <h3>DedDrop - Digital Card Collection Game</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Next.js 14</span>
+                                    <span class="tech-tag">TypeScript</span>
+                                    <span class="tech-tag">Tailwind CSS</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Developed a comprehensive card collection game with 9 different pack types featuring 
+                                6 rarity levels from Common to Mythic cards. Created dynamic card listing system with 
+                                advanced filtering, search functionality, and real-time collection portfolio tracking.
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Progressive Rewards</span>
+                                <span class="feature-tag">VIP Tier System</span>
+                                <span class="feature-tag">AI-Powered Development</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="project-header">
+                                <h3>Smart Compiler</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Vite</span>
+                                    <span class="tech-tag">Tailwind CSS</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Developed a C++ compiler frontend supporting lexical, syntax, and semantic analysis with 
+                                x86-64 assembly code output. Created an interactive UI with tabs and accordion views for 
+                                compilation results.
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Code Analysis</span>
+                                <span class="feature-tag">Error Reporting</span>
+                                <span class="feature-tag">Assembly Output</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-header">
+                                <h3>File Compression Tool using Huffman Coding</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Built a web-based tool implementing Huffman coding for efficient file compression/decompression 
+                                achieving up to 30% size reduction for text files. Designed an intuitive UI with seamless 
+                                file upload/download functionality.
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">30% Compression</span>
+                                <span class="feature-tag">File Handling</span>
+                                <span class="feature-tag">Intuitive UI</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="project-header">
+                                <h3>Advanced Image Filtering & Editing</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">OpenCV</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Created an image-processing application with real-time filters like grayscale, edge detection, 
+                                and blurring. Integrated OpenCV to reduce processing time by 30%, ensuring high-performance results.
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Real-time Filters</span>
+                                <span class="feature-tag">30% Faster Processing</span>
+                                <span class="feature-tag">High Performance</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="project-header">
+                                <h3>Card Matching Game</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Developed an interactive card matching game with a built-in timer and scoring system. 
+                                Implemented advanced JavaScript logic to ensure seamless gameplay and animations.
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Timer System</span>
+                                <span class="feature-tag">Score Tracking</span>
+                                <span class="feature-tag">Smooth Animations</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                            <div class="project-header">
+                                <h3>Bank Account Management System</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Python</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Developed a console-based banking system that allows deposits, withdrawals, and balance inquiries. 
+                                Implemented file handling to store transactions securely, reducing data loss by 90%.
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Secure Transactions</span>
+                                <span class="feature-tag">90% Data Loss Reduction</span>
+                                <span class="feature-tag">File Handling</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+                            <div class="project-header">
+                                <h3>2048 Game</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">C</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Built a fully functional 2048 game with score tracking and real-time user input. 
+                                Optimized algorithm performance to run 20% faster on basic systems.
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Score Tracking</span>
+                                <span class="feature-tag">20% Performance Boost</span>
+                                <span class="feature-tag">Real-time Input</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Contact</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="contact-icon">
+                                <i data-feather="mail"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>vatsankdabral09@gmail.com</p>
+                            <a href="mailto:vatsankdabral09@gmail.com" class="contact-link">Send Email</a>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="contact-icon">
+                                <i data-feather="map-pin"></i>
+                            </div>
+                            <h3>Location</h3>
+                            <p>Dehradun, Uttarakhand, India</p>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="contact-icon">
+                                <i data-feather="linkedin"></i>
+                            </div>
+                            <h3>LinkedIn</h3>
+                            <p>Connect with me professionally</p>
+                            <a href="https://www.linkedin.com/in/vatsank-dabral-8698a4248" target="_blank" class="contact-link">View Profile</a>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="contact-icon">
+                                <i data-feather="github"></i>
+                            </div>
+                            <h3>GitHub</h3>
+                            <p>Check out my projects</p>
+                            <a href="https://github.com/Vatsank12" target="_blank" class="contact-link">View Repository</a>
+                        </div>
+                    </div>
+
+                    <div class="additional-info" data-aos="fade-up" data-aos-delay="500">
+                        <h3>Let's Connect!</h3>
+                        <p>I'm always interested in discussing new opportunities, collaboration on projects, or just having a conversation about technology and cybersecurity. Feel free to reach out!</p>
+                        
+                        <div class="extracurricular-section">
+                            <h4>Additional Details</h4>
+                            <ul>
+                                <li><strong>Languages:</strong> English, Hindi</li>
+                                <li><strong>Soft Skills:</strong> Communication, Teamwork, Problem-Solving, Adaptability, Leadership</li>
+                                <li><strong>Member:</strong> The Wizards (eSports and tech club), Graphic Era Hill University</li>
+                                <li><strong>Achievements:</strong> Top 10% rank in national-level coding competitions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </main>
+
+        <!-- Feather Icons Script -->
+        <script src="https://unpkg.com/feather-icons@4.29.0/dist/feather.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
